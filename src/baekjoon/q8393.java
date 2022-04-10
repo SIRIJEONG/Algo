@@ -2,15 +2,17 @@ package baekjoon;
 
 import java.util.Scanner;
 
-public class q2739 {
+public class q8393 {
     public static void main(String[] args) {
-        //구구단
         Scanner sc = new Scanner(System.in);
+
         int a = sc.nextInt();
 
+        int sum = 0;
 
-        for (int i = 1; i<10; i++ ) {
-            System.out.println(a + " * " + i + " = " + (a*i));
+        for (int i = 1; i<=a; ++i ) {
+            sum += i;
         }
+        System.out.println(sum);
     }
 }
