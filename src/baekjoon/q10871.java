@@ -15,7 +15,7 @@ public class q10871 {
         }
         for (int i = 0; i<n; i++) {
             if (arr[i]<x) {
-                System.out.println(arr[i] + " ");
+                System.out.print(arr[i] + " ");
             }
         }
     }
