@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class q2525 {
     public static void main(String[] args) {
+        //현재시각 과 원하는 추가시간 을 입력했을때 추가한 시간만큼의 시와분을 출력
         Scanner sc = new Scanner(System.in);
 
         int h = sc.nextInt();

@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class q14681 {
     public static void main(String[] args) {
+        //죄표에 해당하는 사분면 구하기
         Scanner sc = new Scanner(System.in);
         int x,y;
         x=sc.nextInt();
